@@ -18,6 +18,7 @@ function App() {
       </div>
       <h1>Vite + React Esta es una aplicacion utilizando DEVOPS</h1>
       <h3>PRUEBA DEVOPS</h3>
+      <h3>Prueba de despliegue automatico </h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
