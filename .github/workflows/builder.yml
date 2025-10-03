@@ -26,4 +26,4 @@ jobs:
     - name: Instacion de surge
       run: npm install --global surge
     - name: Desplegar la app
-      run: surge ./dist afraid-woman.surge.sh --token 50a465ea65ad49b1811dbac185448fad
+      run: surge ./dist ${{vars.DOMAIN}} --token ${{secrets.TOKEN}}
